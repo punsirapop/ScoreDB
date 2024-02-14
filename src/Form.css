@@ -1,0 +1,54 @@
+.Container{
+    background-color: #f0f4ff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 10px 10px;
+    width: 550px;
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px
+}
+
+.InputHolder{
+    width: 200px;
+    padding: 20px;
+}
+
+.InputHolder .Input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid #d8d8d8;
+}
+
+.InputHolder .Error{
+    margin: 0px;
+    font-size: 0.75em;
+    color: red;
+}
+
+.ConfirmButton{
+    width: 100px;
+    height: 40px;
+    margin: 0px 15px;
+    border-radius: 5px;
+    background-color: #0070c0;
+    color: white;
+    border: none;
+}
+
+.CancelButton{
+    width: 100px;
+    height: 40px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0.5px solid #d8d8d8;
+}
